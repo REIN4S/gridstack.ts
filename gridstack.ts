@@ -8,7 +8,7 @@ var obsolete = (f: any, oldName: string, newName: string) => {
     return wrapper
 }
 
-var obsoleteOpts = (oldName, newName) => {
+var obsoleteOpts = (oldName: string, newName: string) => {
 }
 
 namespace Utils {
